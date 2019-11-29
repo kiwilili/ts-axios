@@ -2,7 +2,7 @@ import { ResolvedFn, RejectedFn } from '../types'
 
 interface Interceptor<T> {
   resolved: ResolvedFn<T>
-  rejectd?: RejectedFn
+  rejected?: RejectedFn
 }
 
 export default class InterceptorManager<T> {
